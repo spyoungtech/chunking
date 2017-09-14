@@ -13,7 +13,7 @@ python -m pip install chunking
 >>> from chunker import chunk
 >>> r = range(5)
 >>> for c in chunk(r, 2):
-...     print(a, b)
+...     print(c)
 ...
 (0, 1)
 (2, 3)
