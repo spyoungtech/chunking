@@ -8,7 +8,7 @@ setup(
     author='Spencer Young',
     author_email='spencer.young@spyoung.com',
     description='Tools for chunking iterables',
-    packages=['chuking'],
+    packages=['chunking'],
     platforms='any',
     install_requires=[],
     classifiers=[
