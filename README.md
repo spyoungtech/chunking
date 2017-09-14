@@ -24,8 +24,8 @@ python -m pip install chunking
 
 ```py
 >>> from chunking import split
->>> a_list = ["foo", 'bar', 'SENTINEL', 'bacon', 'eggs']
->>> split(a_list, 'SENTINEL')
+>>> a_list = ["foo", 'bar', 'SEP', 'bacon', 'eggs']
+>>> split(a_list, 'SEP')
 [['foo', 'bar'], ['bacon', 'eggs']]
 ```
 
@@ -35,8 +35,8 @@ Like split, but a generator.
 
 ```py
 >>> from chunking import iter_split
->>> a_list = ["foo", 'bar', 'SENTINEL', 'bacon', 'eggs']
->>> for c in iter_split(a_list):
+>>> a_list = ["foo", 'bar', 'SEP', 'bacon', 'eggs']
+>>> for c in iter_split(a_list,'SEP'):
 ...     print(c)
 ...
 ['foo', 'bar']
