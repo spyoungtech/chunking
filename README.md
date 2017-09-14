@@ -1,6 +1,12 @@
 # chunking
 tools for chunking iterables
 
+## Installation
+
+```
+python -m pip install chunking
+```
+
 ## chunking.chunk
 
 ```py
