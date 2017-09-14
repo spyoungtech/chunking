@@ -1,6 +1,8 @@
 # chunking
 tools for chunking iterables
 
+Requires Python 3.5+
+
 ## Installation
 
 ```
