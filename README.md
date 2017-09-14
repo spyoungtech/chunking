@@ -3,6 +3,8 @@ tools for chunking iterables
 
 Requires Python 3.5+
 
+[![Build Status](https://travis-ci.org/spyoungtech/chunking.svg?branch=master)](https://travis-ci.org/spyoungtech/chunking)
+
 ## Installation
 
 ```
