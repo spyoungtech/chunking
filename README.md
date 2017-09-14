@@ -1,24 +1,38 @@
-# chunker
+# chunking
 tools for chunking iterables
 
-
-## chunker.split
-
-```py
->>> from chunker import split
->>> a_list = ["foo", 'bar', 'SENTINEL', 'bacon', 'eggs']
->>> split(a_list, 'SENTINEL')
-[['foo', 'bar'], ['bacon', 'eggs']]
-```
-
-## chunker.chunk
+## chunking.chunk
 
 ```py
 >>> from chunker import chunk
 >>> r = range(5)
 >>> for c in chunk(r, 2):
 ...     print(a, b)
+...
 (0, 1)
 (2, 3)
 (4,)
+```
+
+## chunking.split
+
+```py
+>>> from chunking import split
+>>> a_list = ["foo", 'bar', 'SENTINEL', 'bacon', 'eggs']
+>>> split(a_list, 'SENTINEL')
+[['foo', 'bar'], ['bacon', 'eggs']]
+```
+
+## chunking.iter_split
+
+Like split, but a generator.
+
+```py
+>>> from chunking import iter_split
+>>> a_list = ["foo", 'bar', 'SENTINEL', 'bacon', 'eggs']
+>>> for c in iter_split(a_list):
+...     print(c)
+...
+['foo', 'bar']
+['bacon', 'eggs']
 ```

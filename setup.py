@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='Chunker',
+    name='Chunking',
     version='0.0.1',
-    url='https://github.com/spyoungtech/chunker/',
+    url='https://github.com/spyoungtech/chunking/',
     license='MIT',
     author='Spencer Young',
     author_email='spencer.young@spyoung.com',
     description='Tools for chunking iterables',
-    packages=['chunker'],
+    packages=['chuking'],
     platforms='any',
     install_requires=[],
     classifiers=[
