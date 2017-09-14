@@ -10,7 +10,7 @@ python -m pip install chunking
 ## chunking.chunk
 
 ```py
->>> from chunker import chunk
+>>> from chunking import chunk
 >>> r = range(5)
 >>> for c in chunk(r, 2):
 ...     print(c)
