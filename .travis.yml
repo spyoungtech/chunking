@@ -8,5 +8,5 @@ python:
   - "nightly"
 
 script:
-  - python -m doctest ./chunking/chunking.py
+  - python -m doctest ./chunking/chunking.py -v
 
