@@ -12,7 +12,6 @@ setup(
     platforms='any',
     install_requires=[],
     classifiers=[
-        'Development Status :: 1 - Alpha',
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
