@@ -1,4 +1,11 @@
 def _iter(iterable, sep):
+    """
+    helper to fix StopIteration issues
+
+    >>> list(_iter(["foo", 'bar', 'SEP', 'bacon', 'eggs'], 'SEP'))
+    ["foo", 'bar', 'SEP', 'bacon', 'eggs', 'SEP']
+
+    """
     x = iter(iterable)
     for item in x:
         yield item
