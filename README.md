@@ -5,6 +5,12 @@ Requires Python 3.5+
 
 [![Build Status](https://travis-ci.org/spyoungtech/chunking.svg?branch=master)](https://travis-ci.org/spyoungtech/chunking)
 
+### Note: 
+
+The main reason this package was created was to fill a small gap in [more-itertools](https://github.com/erikrose/more-itertools) for splitting an iterable ON a value (`chunking.split` / `chunking.iter_split`) -- That gap in more-itertools has since been filled with the [addition of `split_at`](https://github.com/erikrose/more-itertools/pull/178).
+
+As such, you should probably just use [more-itertools](https://github.com/erikrose/more-itertools).
+
 ## Installation
 
 ```
